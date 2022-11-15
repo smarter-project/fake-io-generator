@@ -1,0 +1,12 @@
+application:
+  namespace: smarter
+  appName: smarter-fake-io-generator
+
+image:
+  repository: ghcr.io/smarter-project/fake-io-generator
+  tag: ""
+  pullPolicy: IfNotPresent
+
+configuration:
+  pulseaudio:
+    host: smarter-pulseaudio

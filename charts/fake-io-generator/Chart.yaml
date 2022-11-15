@@ -1,0 +1,27 @@
+apiVersion: v2
+name: smarter-fake-io-generator
+description: smarter-fake-io-generator chart for SMARTER edge devices
+home: https://getsmarter.io
+version: 0.0.1
+appVersion: v0.0.1
+kubeVersion: ">=1.16.0-0"
+keywords:
+  - kubernetes
+  - device
+  - triton
+  - fake-io-generator
+sources:
+  - https://github.com/smarter-project/fake-io-generator
+icon: https://gitlab.com/uploads/-/system/group/avatar/59012546/ARM1636_Project_Logo_ST2_RGB_V1.png
+annotations:
+  artifacthub.io/changes: |
+    - Fix template
+    - Add annotations
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/maintainers: |
+    - name: Josh Minor
+      email: josh.minor@arm.com
+  artifacthub.io/prerelease: "false"
+  artifacthub.io/signKey: |
+    fingerprint: 71EDA4E3D652DC73EB09E3A5387D298C169CF24E
+    url: https://smarter-project.github.io/documentation/pgp_keys.asc
